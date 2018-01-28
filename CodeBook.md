@@ -9,7 +9,7 @@ This code book gives details of the data fields in `tidy.txt`.
              It has 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTIN, STANDING,LAYING)
 
 ## Measurements
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer a-XYZ and timeGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer a-XYZ and timeGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. The mean and standard deviation for these features has been calculated for each subjecy-activity pair.
 
 * `timeBodyAccelerometerMean-X`
 * `timeBodyAccelerometerMean-Y`
