@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Users/Metika/Desktop/Coursera")
+setwd("C:/Users/MS/Desktop/Coursera")
 library(reshape2)
 
 #checking if the folder data exists in the directory, if not create the folder
@@ -74,6 +74,9 @@ names(df)<-gsub("Acc", "Accelerometer", names(df))
 names(df)<-gsub("Gyro", "Gyroscope", names(df))
 names(df)<-gsub("Mag", "Magnitude", names(df))
 names(df)<-gsub("BodyBody", "Body", names(df))
+names(df) <- gsub("-std()", "StandardDeviation", names(df))
+names(df) <- gsub("-mean()", "Mean", names(df))
+names(df) <- gsub("\\()", "", names(df))
 
 df_melt <- melt(df, id = c("subject","activity")) #getting the tall and long data for subject and activity
 df_melt_mean <- dcast(df_melt, subject+activity~variable, mean) #getting mean of each feature for each subject and activity pair
