@@ -1,13 +1,15 @@
 # Code Book
 
-This code book summarizes the resulting data fields in `tidy.txt`.
+This code book gives details of the data fields in `tidy.txt`.
 
 ## Identifiers
 
-* `subject` - The ID of the test subject
-* `activity` - The type of activity performed when the corresponding measurements were taken
+1. `subject` -  ID of the 30 volunteers who performed the activity. Its range is from 1 to 30.
+2. `activity` - Activity type that the 30 volunteers who performed the activity. 
+             It has 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTIN, STANDING,LAYING)
 
 ## Measurements
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer a-XYZ and timeGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. 
 
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`
@@ -89,11 +91,3 @@ This code book summarizes the resulting data fields in `tidy.txt`.
 * `fBodyBodyGyroJerkMagStd`
 * `fBodyBodyGyroJerkMagMeanFreq`
 
-## Activity Labels
-
-* `WALKING` (value `1`): subject was walking during the test
-* `WALKING_UPSTAIRS` (value `2`): subject was walking up a staircase during the test
-* `WALKING_DOWNSTAIRS` (value `3`): subject was walking down a staircase during the test
-* `SITTING` (value `4`): subject was sitting during the test
-* `STANDING` (value `5`): subject was standing during the test
-* `LAYING` (value `6`): subject was laying down during the test
