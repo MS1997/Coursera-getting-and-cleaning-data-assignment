@@ -9,6 +9,7 @@ The features selected for this database come from the accelerometer and gyroscop
 timeAccelerometer a-XYZ and timeGyroscope-XYZ. 
 These time domain signals were captured at a constant rate of 50 Hz. 
 The meassurements are-
+
  "timeBodyAccelerometer-mean()-X" 
 "timeBodyAccelerometer-mean()-Y" 
 "timeBodyAccelerometer-mean()-Z" 
@@ -75,5 +76,7 @@ The meassurements are-
 "frequencyBodyGyroscopeMagnitude-std()"
  "frequencyBodyGyroscopeJerkMagnitude-mean()" 
 "frequencyBodyGyroscopeJerkMagnitude-std()"
+
+
 
 For each activity and subject pair mean and standard deviation values were computed for each meassurement.
