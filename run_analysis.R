@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Users/Metika/Desktop/Coursera")
+setwd("C:/Users/MS/Desktop/Coursera")
 library(reshape2)
 
 #checking if the folder data exists in the directory, if not create the folder
