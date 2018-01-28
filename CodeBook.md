@@ -5,7 +5,7 @@ This code book gives details of the data fields in `tidy.txt`.
 ## Identifiers
 
 1. `subject` -  ID of the 30 volunteers who performed the activity. Its range is from 1 to 30.
-2. `activity` - Activity type that the 30 volunteers who performed the activity wearing a smartphone (Samsung Galaxy S II) on the waist. 
+2. `activity` - Activity type that the 30 volunteers who performed the activity wearing a smartphone (Samsung Galaxy) on their waist. 
              It has 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTIN, STANDING,LAYING)
 
 ## Measurements
